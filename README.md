@@ -39,12 +39,6 @@ This codebase was tested with the following environment configurations. It may w
 - PyTorch 1.13.1 + cu117
 - NVIDIA 3090 GPU (24 GB) 
 
-To use the selective scan with efficient hard-ware design, the `mamba_ssm` library is advised to install with the folllowing command.
-
-```
-pip install causal_conv1d==1.0.0
-pip install mamba_ssm==1.0.1
-```
 
 One can also create a new anaconda environment, and then install necessary python libraries with this [requirement.txt](https://drive.google.com/file/) and the following command: 
 ```

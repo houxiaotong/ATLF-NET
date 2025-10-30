@@ -26,8 +26,9 @@
 
 ## <a name="news"></a> 🆕 News
 
-- **2025-10-29:** ⏰The code is being uploaded. 😄
- 
+- **2025-10-29:** ⏰The dataset link has been provided. 🗄️
+- **2025-10-30:** ⏰The code is being uploaded. 😄
+
 
 
 ## <a name="installation"></a> Installation
@@ -82,7 +83,7 @@ Please cite us if our work is useful for your research.
 ##
 ## <a name="con"></a>☎️ Contact
 
-If you have any questions, feel free to approach me. 📞
+If you have any questions, feel free to approach me 352598057@qq.com. 📧
 ##
 
 

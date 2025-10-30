@@ -45,6 +45,22 @@ One can also create a new anaconda environment, and then install necessary pytho
 conda install requirements.txt
 ```
 
+## Results
+We achieve state-of-the-art performance on various dataset. Detailed results can be found in the paper.
+
+<details>
+<summary>Evaluation on AANLIB dataset (click to expand)</summary>
+<p align="center">
+    <img src="Reconstruction result/reconstruction result-1.png" style="border-radius: 15px">
+</p>
+</details>
+
+<details>
+<summary>Failure cases (click to expand)</summary>
+<p align="center">
+    <img src="Reconstruction result/Failure cases.png" style="border-radius: 15px">
+</p>
+</details>
 
 ## Datasets
  

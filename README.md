@@ -1,6 +1,6 @@
 ## ATLF-Net
 
-## Low-rank fused modality assisted magnetic resonance imaging reconstruction via an anatomical variation adaptive transformer
+## 📝Low-rank fused modality assisted magnetic resonance imaging reconstruction via an anatomical variation adaptive transformer
 
 
 
@@ -26,7 +26,7 @@
 
 ## <a name="news"></a> 🆕 News
 
-- **2025-10-29:** The code is being uploaded. 😄
+- **2025-10-29:** ⏰The code is being uploaded. 😄
  
 
 
@@ -64,7 +64,7 @@ We achieve state-of-the-art performance on various dataset. Detailed results can
 </p>
 </details>
 
-## Datasets
+##🗂️ Datasets
 
 [AANLIB](https://www.med.harvard.edu/aanlib/home.html) dataset offered by Harvard Medical School in the United States, is a comprehensive whole brain atlas that is primarily categorized into normal and disease-specific brain images. The AANLIB dataset comprises various imaging modalities, including MRI, CT, PET, and SPECT. Specifically for MR images, the AANLIB dataset provides both T1- and T2-weighted images. 
 [CHAOS](https://paperswithcode.com/dataset/CHAOS) dataset, introduced in the ISBI 2019 challenge, is one of the classic benchmarks for abdominal medical image segmentation. It provides paired multi-modal CT and MR data. Specifically, the CHAOS dataset comprises 40 paired CT and MR images, out of which only 20 are annotated and designated as the training set, while the remaining 20 images are unlabeled. Although the CT and MR data are paired, they are not registered. Therefore, preprocessing and registration of the dataset are necessary steps.
@@ -74,11 +74,11 @@ We achieve state-of-the-art performance on various dataset. Detailed results can
 
 Please cite us if our work is useful for your research.
 
-## Acknowledgement
+##🧩 Acknowledgement
  
-## Contact
+##☎️ Contact
 
-If you have any questions, feel free to approach me.
+If you have any questions, feel free to approach me. 📞
 
 
 

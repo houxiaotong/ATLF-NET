@@ -76,11 +76,13 @@ We achieve state-of-the-art performance on various dataset. Detailed results can
 
 Please cite us if our work is useful for your research.
 
-##🧩 Acknowledgement
+##
+## <a name="ack"></a> 🧩 Acknowledgement
  
-##☎️ Contact
+##
+## <a name="con"></a>☎️ Contact
 
 If you have any questions, feel free to approach me. 📞
-
+##
 
 

@@ -45,12 +45,18 @@ This codebase was tested with the following environment configurations. It may w
 All alignments in this study were performed using [ITK-SNAP](http://www.itksnap.org/).  Readers are free to employ alternative registration or annotation tools and pipelines;  our method is software-agnostic, provided that the resulting outputs conform to the required input formats.
 
 
+<p align="center">
+    <img src="train/ATLF.png" style="border-radius: 15px">
+</p>
+
+
 One can also create a new anaconda environment, and then install necessary python libraries with this [requirement.txt](https://drive.google.com/file/) and the following command: 
 ```
 conda install requirements.txt
 ```
 
-## Results
+## <a name="results"></a>🔍 Results
+
 We achieve state-of-the-art performance on various dataset. Detailed results can be found in the paper.
 
 <details>
@@ -67,7 +73,7 @@ We achieve state-of-the-art performance on various dataset. Detailed results can
 </p>
 </details>
 
-##🗂️ Datasets
+## <a name="datasets"></a>🗂️ Datasets
 
 [AANLIB](https://www.med.harvard.edu/aanlib/home.html) dataset offered by Harvard Medical School in the United States, is a comprehensive whole brain atlas that is primarily categorized into normal and disease-specific brain images. The AANLIB dataset comprises various imaging modalities, including MRI, CT, PET, and SPECT. Specifically for MR images, the AANLIB dataset provides both T1- and T2-weighted images. 
 
@@ -82,10 +88,11 @@ Please cite us if our work is useful for your research.
 ##
 ## <a name="ack"></a> 🧩 Acknowledgement
  
-##
+
+
 ## <a name="con"></a>☎️ Contact
 
 If you have any questions, feel free to approach me 352598057@qq.com. 📧
-##
+
 
 

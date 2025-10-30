@@ -5,6 +5,8 @@
 
 
 > **Abstract:** In clinical practice, precise magnetic resonance imaging (MRI) reconstruction from undersampled data is crucial. While multi-modal approaches can enhance reconstruction quality, acquiring fully sampled auxiliary information is often time-consuming. Given that computed tomography (CT) images are routinely obtained during clinical examinations, this paper utilizes an anatomical variation adaptive transformer (AVAT) assisted by low-rank fused CT-MRI modality to propose an MRI reconstruction network (ATLF-Net). Specifically, this method leverages a CT-MRI fused modality to assist in MRI reconstruction. The ATLF-Net encompasses fusion and reconstruction processes. The fusion process aims to generate a CT-MRI fused modality that minimizes the gap between it and the MRI modality, serving as auxiliary information for reconstruction. The proposed ATLF-Net comprises the global feature-aware block (GFAB), the local feature-aware block (LFAB), and the low-rank fusion module (LRFM). GFAB and LFAB extract global and local information from shallow features, respectively. LRFM fuses CT and undersampled MRI through modality-specific low-rank factors. During the reconstruction process, an AVAT is developed to extract complex and elongated pathological features. Extensive experiments show that the proposed ATLF-Net achieves robust performance and high-quality reconstructed images with few parameters compared to benchmarks, across various acceleration rates on public datasets.
+
+
 ⭐If this work is helpful for you, please help star this repo. Thanks!🤗
 
 

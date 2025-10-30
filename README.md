@@ -24,6 +24,9 @@
 ## <a name="Real-S"></a> 🥇 The proposed ATLF-Net architecture
 
 
+<p align="center">
+    <img src="train/ATLF.png" style="border-radius: 15px">
+</p>
 
 
 ## <a name="news"></a> 🆕 News
@@ -45,9 +48,6 @@ This codebase was tested with the following environment configurations. It may w
 All alignments in this study were performed using [ITK-SNAP](http://www.itksnap.org/).  Readers are free to employ alternative registration or annotation tools and pipelines;  our method is software-agnostic, provided that the resulting outputs conform to the required input formats.
 
 
-<p align="center">
-    <img src="train/ATLF.png" style="border-radius: 15px">
-</p>
 
 
 One can also create a new anaconda environment, and then install necessary python libraries with this [requirement.txt](https://drive.google.com/file/) and the following command: 

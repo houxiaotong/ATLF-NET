@@ -12,14 +12,14 @@
 
 - [Visual Results](#visual_results)
 - [News](#news)
-- [Results](#results)
 - [Installation](#installation)
+- [Results](#results)
 - [Datasets](#Datasets)
 - [Citation](#cite)
 
 
 
-## <a name="Real-SR"></a> 🥇 The proposed ATLF-Net architecture
+## <a name="Real-S"></a> 🥇 The proposed ATLF-Net architecture
 
 
 
@@ -38,6 +38,8 @@ This codebase was tested with the following environment configurations. It may w
 - Python 3.9
 - PyTorch 1.13.1 + cu117
 - NVIDIA 3090 GPU (24 GB) 
+
+All alignments in this study were performed using [ITK-SNAP](http://www.itksnap.org/).  Readers are free to employ alternative registration or annotation tools and pipelines;  our method is software-agnostic, provided that the resulting outputs conform to the required input formats.
 
 
 One can also create a new anaconda environment, and then install necessary python libraries with this [requirement.txt](https://drive.google.com/file/) and the following command: 
@@ -63,11 +65,14 @@ We achieve state-of-the-art performance on various dataset. Detailed results can
 </details>
 
 ## Datasets
- 
+
+[AANLIB](https://www.med.harvard.edu/aanlib/home.html) dataset offered by Harvard Medical School in the United States, is a comprehensive whole brain atlas that is primarily categorized into normal and disease-specific brain images. The AANLIB dataset comprises various imaging modalities, including MRI, CT, PET, and SPECT. Specifically for MR images, the AANLIB dataset provides both T1- and T2-weighted images. 
+[CHAOS](https://paperswithcode.com/dataset/CHAOS) dataset, introduced in the ISBI 2019 challenge, is one of the classic benchmarks for abdominal medical image segmentation. It provides paired multi-modal CT and MR data. Specifically, the CHAOS dataset comprises 40 paired CT and MR images, out of which only 20 are annotated and designated as the training set, while the remaining 20 images are unlabeled. Although the CT and MR data are paired, they are not registered. Therefore, preprocessing and registration of the dataset are necessary steps.
+[MM-WHS](https://zmiclab.github.io/zxh/0/mmwhs/) dataset, introduced in the MICCAI 2017 challenge, comprises 120 multi-modal cardiac images, including 60 CT/CTA and 60 MRI scans. The data cover the entire heart and its major substructures, acquired under real clinical conditions with varying image quality. Such diversity ensures a realistic assessment of algorithm robustness in clinical applications.
+
 ## <a name="cite"></a> 🥰 Citation
 
 Please cite us if our work is useful for your research.
-
 
 ## Acknowledgement
  
